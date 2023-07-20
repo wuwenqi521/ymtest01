@@ -1,0 +1,44 @@
+{
+  "_readme": [
+    "This file is @generated automatically"
+  ],
+  "packages": [
+    {
+      "name": "symfony/symfony",
+      "version": "v2.3.1",
+      "require": {
+        "doctrine/common": "~2.2",
+      },
+      "time": "2013-06-11T11:46:38+00:00"
+    },
+    {
+      "name": "doctrine/common",
+      "version": "v2.5.0",
+      "require": {
+        "doctrine/collections": "1.*"
+      },
+      "time": "2015-04-02T19:55:44+00:00"
+    },
+    {
+      "name": "doctrine/collections",
+      "version": "v1.5.0",
+      "require-dev": {
+        "doctrine/coding-standard": "~0.1@dev",
+        "phpunit/phpunit": "^5.7"
+      },
+      "time": "2017-07-22T10:37:32+00:00"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "phpunit/phpunit",
+      "version": "8.4.1",
+      "require": {
+        "doctrine/instantiator": "^1.2.0",
+        "phpspec/prophecy": "^1.8.1"
+      },
+      "time": "2019-10-07T12:57:41+00:00"
+    }
+  ],
+  "platform-dev": []
+}

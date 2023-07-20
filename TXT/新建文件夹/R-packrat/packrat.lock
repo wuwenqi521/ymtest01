@@ -1,0 +1,15 @@
+PackratFormat: 1.4
+PackratVersion: 0.5.0
+RVersion: 3.5.3
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
+Package: dbplyr
+Source: CRAN
+Version: 1.4.2
+Hash: 98ff6c6b2ff30fd4007dd16c75027b30
+Requires: DBI, R6, assertthat, dplyr, rlang, tidyselect

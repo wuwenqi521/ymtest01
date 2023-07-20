@@ -1,0 +1,10 @@
+PODS:
+  - IKEventSourceHirro (2.0.0)
+    - GYKit
+  - GYKit (1.2.9)
+    - LJKit
+  - LJKit  (0.1.1)
+
+DEPENDENCIES:
+  - IKEventSourceHirro (2.0.0)
+PODFILE CHECKSUM: fc97b5222761ba36be482acdc44f0245d25f0993

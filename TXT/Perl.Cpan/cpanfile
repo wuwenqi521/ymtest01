@@ -1,0 +1,10 @@
+conflicts 'yamltk', '1.08';
+test_requires 'html2dbk', '0.02';
+
+on 'configure' => sub {
+    requires "geoip2" => "2.001001";
+};
+
+feature 'sqlite', 'SQLite support' => sub {
+    recommends 'filter-heredoc' => "0.01";
+};

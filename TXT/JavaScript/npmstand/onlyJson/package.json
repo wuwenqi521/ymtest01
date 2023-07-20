@@ -1,0 +1,17 @@
+{
+  "name": "react-ssr",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=14.9.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.14.3",
+    "engine.io-client-v3": "npm:engine.io-client@3.5.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "1.19.1"
+  }
+}

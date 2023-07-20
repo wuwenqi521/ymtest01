@@ -1,0 +1,10 @@
+# There are no targets called "Shows" in any Xcode projects
+abstract_target 'Shows' do
+  pod 'GYKit' , '~> 1.2.9'
+  pod 'FJController' ,'~> 0.0.1'
+
+  # Has its own copy of ShowsKit + ShowWebAuth
+  target 'ShowsiOS' do
+    pod 'StringExtensionHTML' , '~> 0.2.0'
+  end
+end

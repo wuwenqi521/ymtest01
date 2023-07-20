@@ -1,0 +1,61 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "Microsoft.AspNetCore.Routing/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.0.1"
+        }
+      },
+      "System.Resources.ResourceManager/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Globalization": "4.0.11"
+        }
+      },
+      "System.Globalization/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1"
+        }
+      },
+      "System.Net.Primitives/4.0.1": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+  }
+}

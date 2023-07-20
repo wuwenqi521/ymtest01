@@ -1,0 +1,8 @@
+# Local development dependencies including docs building, website upload, ASV benchmark
+name: pandas-dev
+channels:
+  - conda-forge
+dependencies:
+  - cython=0.29.32
+  - pytest>=6.0
+  - jupyterlab >=3.4,<4

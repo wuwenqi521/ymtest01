@@ -1,0 +1,28 @@
+[[constraint]]
+  name = "github.com/Masterminds/semver"
+  branch = "2.x"
+
+[[constraint]]
+  name = "github.com/Masterminds/vcs"
+  revision = "1.11.0"
+
+[[constraint]]
+  name = "github.com/boltdb/bolt"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/jmank88/nuts"
+  version = "0.3.0"
+
+[[override]]
+name = "github.com/jmank88/nuts"
+version = "0.3.1"
+
+[[override]]
+name = "github.com/boltdb/bolt"
+version = "1.0.1"
+
+[prune]
+  non-go = true
+  go-tests = true
+  unused-packages = true

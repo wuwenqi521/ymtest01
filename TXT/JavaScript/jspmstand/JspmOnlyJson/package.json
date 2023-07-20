@@ -1,0 +1,10 @@
+{
+  "jspm": {
+    "dependencies": {
+      "myname": "npm:underscore@^1.13.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+    }
+  }
+}

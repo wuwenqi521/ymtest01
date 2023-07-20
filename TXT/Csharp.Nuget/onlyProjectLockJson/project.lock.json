@@ -1,0 +1,29 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "Microsoft.AspNetCore.Routing/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "1.0.1"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Routing.Abstractions/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Concurrent": "4.0.12"
+        }
+      }
+    }
+  },
+  "libraries": {
+  }
+}
